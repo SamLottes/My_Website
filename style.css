@@ -1,88 +1,62 @@
-.headerBar {
-    width: 100%;
-    display:flex;
-    flex-direction: row;
+.header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.Intro {
-    display:flex;
-    flex-direction: column;
-    background-color: #1F2937;
-}
-
-.mainIntro {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    color: white;
-}
-
-.subIntro {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    color: white;
-}
-
-.Sball {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-}
-
-.title {
+  }
+  
+  .header-item {
     height: 20px;
     width: 50px;
     background-color: #2883F6;
-    margin: 20px;
-    float: right;
     border-radius: 50px;
-    justify-content: center;
-    text-align: center;
     display: flex;
-
-}
-.flex-container {
-
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    
-
-}
-
-.box-heading {
-
-    justify-content: center;
-    text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: bold;
-}
-
-.box {
-    display:flex;
-    height: 200px;
-    width: 200px;
-    background-color:#2883F6;
-    margin: 15px;
-    border-radius: 30px;
     justify-content: center;
     align-items: center;
+  }
+  
+  .intro {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .intro-heading {
+    font-size: 30px;
+  }
+  
+  .intro-text {
+    font-size: 20px;
+  }
+  
+  .intro-image {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .characters-heading {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .characters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .character {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+  }
+  
+  .character img {
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
     border: 5px solid #1F2937;
-    
-}
-
-.characters {
-
-    display:flex;
-    flex-direction: row;
-    text-decoration-color: aqua;
-    
-}
+  }
